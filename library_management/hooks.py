@@ -15,7 +15,8 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/library_management/css/library_management.css"
+# app_include_css = "assets.library_management.css.library_management.css"
+app_include_css = "/assets/library_management/css/library_management.css"
 # app_include_js = "/assets/library_management/js/library_management.js"
 
 # include js, css files in header of web template
@@ -43,6 +44,7 @@ app_license = "MIT"
 
 # application home page (will override Website Settings)
 # home_page = "login"
+home_page = "login"
 
 # website user home page (by Role)
 # role_home_page = {
@@ -143,3 +145,14 @@ app_license = "MIT"
 #
 # auto_cancel_exempted_doctypes = ["Auto Repeat"]
 
+
+test_string = 'value'
+test_list = ['value']
+test_dict = {
+    'key': 'value'
+}
+
+
+# File Hooks
+before_write_file = "library_management.overrides.file.before_write"
+write_file = "library_management.overrides.file.write_file"

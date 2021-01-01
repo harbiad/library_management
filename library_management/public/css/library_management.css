@@ -1,0 +1,13 @@
+/** body {background-color: yellow;} */
+ .desk-sidebar {background-color: #c3a956;  /*gold color */}
+/* .container {background-color: #613504;}  brown */
+.navbar.navbar-default.navbar-fixed-top {background-color: #613504 ;}
+
+
+/*.app-logo { src : "/assets/library_management/images/barran-new-logo-image-only.png";}*/
+
+div.navbar-header.navbar-desk { width:165px; height: 24px;}
+.app-logo { content: url("/assets/library_management/images/albaran-law-firm-new-logo-narrow.png");
+            width : 165px !important;
+            height : 24px;            
+}

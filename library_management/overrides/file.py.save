@@ -1,0 +1,14 @@
+# will override the implementation of writing file to disk
+# can be used to upload files to a CDN instead of writing
+# the file to disk
+
+# -*- coding: utf-8 -*-
+# Copyright (c) 2020, Ahmed and contributors
+# For license information, please see license.txt
+
+from __future__ import unicode_literals
+import frappe
+from frappe.model.document import Document
+
+def write_file():
+    pass

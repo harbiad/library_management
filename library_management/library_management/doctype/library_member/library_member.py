@@ -9,7 +9,7 @@ from frappe.model.document import Document
 class LibraryMember(Document):
 
       def testbt(self):
-           if self.first_name == 'Saad':
+          if self.first_name == 'Saad':
            # frappe.throw(
            # title='Error',
            # msg='You can not use this name "Saad!"',
@@ -18,7 +18,9 @@ class LibraryMember(Document):
                    msg='test button سعد',
                    title='Error',
                    raise_exception=FileNotFoundError)
-
+          else:
+            frappe.msgprint(
+                   msg='no سعد found!')
 
 
 
